@@ -59,7 +59,7 @@ def get_cookie():
     ck_list = []
     pin = "null"
     cookie = None
-    cookies = get_envs("JD_COOKIE")
+    cookies = get_envs("CFD_COOKIE")
     for ck in cookies:
         if ck.get('status') == 0:
             ck_list.append(ck)
